@@ -1,0 +1,79 @@
+﻿import Link from "next/link";
+import Logo from "./Logo";
+import BackToTop from "./BackToTop";
+import { contact, nav, profile, socials } from "@/data/site";
+
+export default function Footer() {
+  const year = new Date().getFullYear();
+
+  return (
+    <footer className="footer">
+      <div className="footer-inner">
+        <div className="footer-top">
+          <Link href="/" className="footer-logoLink" aria-label="Rakesh Kumar I - home">
+            <Logo />
+          </Link>
+
+          <nav className="footer-column" aria-label="Footer">
+            <ul>
+              {nav.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="footer-link">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <div className="footer-info">
+            <div className="footer-infoBlock">
+              <span className="footer-infoLabel">Email</span>
+              <a href={`mailto:${contact.email}`} className="footer-infoValue">
+                {contact.email}
+              </a>
+            </div>
+            <div className="footer-infoBlock">
+              <span className="footer-infoLabel">Based in</span>
+              <span className="footer-infoValue">{profile.location}</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+          <p className="footer-copyright">
+            &copy; {year} Rakesh Kumar I. All rights reserved.
+          </p>
+          <div className="footer-legal">
+            <ul>
+              {socials.map((social) => (
+                <li key={social.href}>
+                  <a
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-legalLink"
+                  >
+                    {social.label}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <a
+                  href={profile.resume}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="footer-legalLink"
+                >
+                  R&eacute;sum&eacute;
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <BackToTop />
+        </div>
+      </div>
+    </footer>
+  );
+}

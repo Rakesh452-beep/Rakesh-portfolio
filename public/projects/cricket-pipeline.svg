@@ -1,0 +1,87 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="760" height="880" viewBox="0 0 760 880" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <clipPath id="cp-clip"><rect width="760" height="880" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cp-clip)">
+    <rect width="760" height="880" fill="#0f1720"/>
+
+    <!-- terminal bar -->
+    <rect width="760" height="46" fill="#1c2733"/>
+    <circle cx="26" cy="23" r="5" fill="#ff5f57"/>
+    <circle cx="44" cy="23" r="5" fill="#febc2e"/>
+    <circle cx="62" cy="23" r="5" fill="#28c840"/>
+    <text x="88" y="27" font-size="11" fill="#7d8b99">cricket_pipeline.py — daily @ 06:00</text>
+
+    <!-- header -->
+    <text x="28" y="92" font-size="16" font-weight="700" fill="#4ade80">$</text>
+    <text x="46" y="92" font-size="14" fill="#cbd5e1">python run_pipeline.py --date 2025-04-12</text>
+
+    <!-- log lines -->
+    <g font-family="Consolas, monospace" font-size="12">
+      <text x="28" y="128" fill="#64748b">[06:00:01] fetching KSCA U-19 fixtures…</text>
+      <text x="28" y="152" fill="#94a3b8">[06:00:03] 12 matches found · parsing JSONP endpoints</text>
+      <text x="28" y="176" fill="#4ade80">[06:00:05] parsed 12/12 matches ✓</text>
+      <text x="28" y="200" fill="#94a3b8">[06:00:06] isolating wicketkeeper figures…</text>
+      <text x="28" y="224" fill="#4ade80">[06:00:07] 12 keeper records extracted ✓</text>
+      <text x="28" y="248" fill="#94a3b8">[06:00:08] writing report.xlsx via openpyxl…</text>
+      <text x="28" y="272" fill="#94a3b8">[06:00:09] syncing to Google Sheets API…</text>
+      <text x="28" y="296" fill="#4ade80">[06:00:11] sheet updated ✓</text>
+      <text x="28" y="320" fill="#94a3b8">[06:00:12] emailing report to 4 recipients…</text>
+      <text x="28" y="344" fill="#4ade80">[06:00:13] sent via Gmail SMTP ✓</text>
+      <text x="28" y="368" fill="#facc15">[06:00:13] done in 12.4s — next run tomorrow 06:00</text>
+    </g>
+
+    <!-- report preview -->
+    <rect x="28" y="396" width="704" height="300" rx="12" fill="#16202b" stroke="#24313f"/>
+    <text x="48" y="430" font-size="12" font-weight="700" fill="#e2e8f0">Wicketkeeper Report — KSCA U-19 · 12 Apr 2025</text>
+
+    <!-- table header -->
+    <rect x="48" y="448" width="664" height="34" rx="6" fill="#1f2c39"/>
+    <g font-size="11" fill="#8fa3b5">
+      <text x="60" y="470">PLAYER</text>
+      <text x="300" y="470">MATCH</text>
+      <text x="470" y="470">CATCHES</text>
+      <text x="570" y="470">STUMPINGS</text>
+    </g>
+
+    <!-- rows -->
+    <g font-size="12" fill="#cbd5e1">
+      <rect x="48" y="490" width="664" height="38" fill="#0f1720" opacity="0.4"/>
+      <text x="60" y="514">A. Sharma</text>
+      <text x="300" y="514">KSCA vs Mysore</text>
+      <text x="490" y="514">4</text>
+      <text x="600" y="514">1</text>
+
+      <rect x="48" y="528" width="664" height="38" fill="#16202b"/>
+      <text x="60" y="552">R. Iyer</text>
+      <text x="300" y="552">KSCA vs Hubli</text>
+      <text x="490" y="552">3</text>
+      <text x="600" y="552">2</text>
+
+      <rect x="48" y="566" width="664" height="38" fill="#0f1720" opacity="0.4"/>
+      <text x="60" y="590">K. Nair</text>
+      <text x="300" y="590">KSCA vs Belgaum</text>
+      <text x="490" y="590">2</text>
+      <text x="600" y="590">0</text>
+
+      <rect x="48" y="604" width="664" height="38" fill="#16202b"/>
+      <text x="60" y="628">S. Patil</text>
+      <text x="300" y="628">KSCA vs Davangere</text>
+      <text x="490" y="628">5</text>
+      <text x="600" y="628">3</text>
+    </g>
+
+    <!-- chart -->
+    <rect x="48" y="656" width="664" height="24" rx="6" fill="#1f2c39"/>
+    <rect x="48" y="656" width="180" height="24" rx="6" fill="#38bdf8"/>
+    <text x="60" y="673" font-size="11" fill="#0f1720" font-weight="700">Stumpings</text>
+
+    <!-- footer -->
+    <text x="28" y="744" font-size="11" fill="#64748b">Scheduled by Windows Task Scheduler · Python · Pandas · openpyxl · Sheets API · Gmail SMTP</text>
+    <rect x="28" y="764" width="180" height="40" rx="20" fill="#22c55e"/>
+    <text x="60" y="789" font-size="13" font-weight="700" fill="#06240f">RUN AGAIN NOW</text>
+    <rect x="224" y="764" width="150" height="40" rx="20" fill="none" stroke="#33465a"/>
+    <text x="254" y="789" font-size="13" fill="#94a3b8">Open sheet</text>
+  </g>
+</svg>

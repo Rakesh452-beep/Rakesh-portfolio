@@ -1,0 +1,56 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="djw-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12100d"/>
+      <stop offset="1" stop-color="#241d13"/>
+    </linearGradient>
+    <clipPath id="djw-clip"><rect width="1600" height="900" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#djw-clip)">
+    <rect width="1600" height="900" fill="url(#djw-bg)"/>
+
+    <!-- browser bar -->
+    <rect width="1600" height="50" fill="#1b1712"/>
+    <circle cx="30" cy="25" r="6" fill="#ff5f57"/>
+    <circle cx="50" cy="25" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="25" r="6" fill="#28c840"/>
+    <rect x="100" y="13" width="420" height="24" rx="12" fill="#2a241b"/>
+    <text x="116" y="29" font-size="12" fill="#8f8574">dhanunjaystudio.com — Three Lenses Studio</text>
+
+    <!-- nav -->
+    <text x="60" y="108" font-size="20" font-weight="700" letter-spacing="4" fill="#d9b061">DHANUNJAY</text>
+    <g font-size="12" letter-spacing="2" fill="#b9ae98">
+      <text x="360" y="106">WORK</text>
+      <text x="440" y="106">SERVICES</text>
+      <text x="540" y="106">STUDIO</text>
+      <text x="630" y="106">JOURNAL</text>
+    </g>
+    <rect x="1400" y="88" width="140" height="30" rx="15" fill="#d9b061"/>
+    <text x="1434" y="107" font-size="12" font-weight="700" fill="#241d13">BOOK NOW</text>
+
+    <!-- hero -->
+    <text x="60" y="300" font-size="15" letter-spacing="8" fill="#d9b061">PHOTOGRAPHY · CINEMATOGRAPHY · DESIGN</text>
+    <text x="60" y="392" font-size="92" font-weight="700" fill="#f4efe4">Three Lenses Studio</text>
+    <text x="60" y="470" font-size="20" fill="#b9ae98">Weddings, portraits, film and brand stories — shot with intent.</text>
+    <circle cx="1240" cy="330" r="200" fill="none" stroke="#d9b061" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="1300" cy="400" r="320" fill="none" stroke="#d9b061" stroke-width="1.2" opacity="0.22"/>
+    <path d="M1120 340 l120 160 -240 0 z" fill="none" stroke="#d9b061" stroke-width="1.6" opacity="0.5"/>
+
+    <!-- thumbnails strip -->
+    <g>
+      <rect x="60" y="560" width="330" height="260" rx="10" fill="#2c2418" stroke="#3a3022"/>
+      <rect x="410" y="560" width="330" height="260" rx="10" fill="#332a1b" stroke="#3a3022"/>
+      <rect x="760" y="560" width="330" height="260" rx="10" fill="#2c2418" stroke="#3a3022"/>
+      <rect x="1110" y="560" width="330" height="260" rx="10" fill="#332a1b" stroke="#3a3022"/>
+      <circle cx="225" cy="670" r="40" fill="none" stroke="#d9b061" stroke-width="1.2" opacity="0.6"/>
+      <path d="M575 630 l50 70 -100 0 z" fill="none" stroke="#d9b061" stroke-width="1.4" opacity="0.6"/>
+      <rect x="890" y="620" width="60" height="80" fill="none" stroke="#d9b061" stroke-width="1.4" opacity="0.6"/>
+      <circle cx="1275" cy="690" r="46" fill="none" stroke="#d9b061" stroke-width="1.2" opacity="0.6"/>
+      <text x="60" y="852" font-size="13" fill="#b9ae98">Wedding Films — 2025</text>
+      <text x="410" y="852" font-size="13" fill="#b9ae98">Portrait Series — 2025</text>
+      <text x="760" y="852" font-size="13" fill="#b9ae98">Brand Campaign — 2024</text>
+      <text x="1110" y="852" font-size="13" fill="#b9ae98">Editorial — 2024</text>
+    </g>
+  </g>
+</svg>

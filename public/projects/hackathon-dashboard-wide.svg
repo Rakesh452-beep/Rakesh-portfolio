@@ -1,0 +1,132 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <clipPath id="haw-clip"><rect width="1600" height="900" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#haw-clip)">
+    <rect width="1600" height="900" fill="#eef2fb"/>
+
+    <!-- browser bar -->
+    <rect width="1600" height="50" fill="#f7f9fd"/>
+    <circle cx="30" cy="25" r="6" fill="#ff5f57"/>
+    <circle cx="50" cy="25" r="6" fill="#febc2e"/>
+    <circle cx="70" cy="25" r="6" fill="#28c840"/>
+    <rect x="100" y="13" width="440" height="24" rx="12" fill="#e7ecf7"/>
+    <text x="116" y="29" font-size="12" fill="#6b7280">hackathon-dashboard.vercel.app — TeamUp</text>
+
+    <!-- app header -->
+    <rect x="0" y="50" width="1600" height="70" fill="#4f46e5"/>
+    <rect x="60" y="72" width="28" height="28" rx="8" fill="#a5b4fc"/>
+    <text x="100" y="92" font-size="18" font-weight="700" fill="#ffffff">TeamUp</text>
+    <text x="1180" y="92" font-size="13" fill="#c7d2fe">Dashboard</text>
+    <text x="1290" y="92" font-size="13" fill="#c7d2fe">Matches</text>
+    <text x="1380" y="92" font-size="13" fill="#c7d2fe">Messages</text>
+    <circle cx="1500" cy="86" r="16" fill="#6366f1"/>
+    <text x="1494" y="91" font-size="12" fill="#ffffff">RK</text>
+
+    <!-- sidebar -->
+    <rect x="0" y="120" width="300" height="780" fill="#ffffff"/>
+    <rect x="0" y="120" width="300" height="780" fill="none"/>
+    <text x="34" y="178" font-size="13" font-weight="700" fill="#1e293b">Filters</text>
+    <text x="34" y="218" font-size="12" fill="#64748b">Skill</text>
+    <g font-size="11">
+      <rect x="34" y="232" width="66" height="26" rx="13" fill="#e0e7ff"/><text x="50" y="249" fill="#4338ca">React</text>
+      <rect x="108" y="232" width="82" height="26" rx="13" fill="#e0e7ff"/><text x="124" y="249" fill="#4338ca">Supabase</text>
+      <rect x="198" y="232" width="66" height="26" rx="13" fill="#ede9fe"/><text x="214" y="249" fill="#6d28d9">Python</text>
+      <rect x="34" y="266" width="58" height="26" rx="13" fill="#e0e7ff"/><text x="50" y="283" fill="#4338ca">Node</text>
+      <rect x="100" y="266" width="76" height="26" rx="13" fill="#ede9fe"/><text x="116" y="283" fill="#6d28d9">UI/UX</text>
+    </g>
+    <text x="34" y="330" font-size="12" fill="#64748b">Availability</text>
+    <rect x="34" y="344" width="232" height="14" rx="7" fill="#e2e8f0"/>
+    <rect x="34" y="344" width="150" height="14" rx="7" fill="#4f46e5"/>
+    <text x="34" y="392" font-size="12" fill="#64748b">Experience</text>
+    <rect x="34" y="406" width="232" height="14" rx="7" fill="#e2e8f0"/>
+    <rect x="34" y="406" width="90" height="14" rx="7" fill="#6366f1"/>
+
+    <!-- content -->
+    <text x="340" y="178" font-size="24" font-weight="700" fill="#1e293b">Find your team</text>
+    <text x="340" y="206" font-size="13" fill="#64748b">Match by skill and availability, not by scrolling group chats.</text>
+
+    <rect x="340" y="230" width="760" height="46" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
+    <circle cx="370" cy="253" r="7" fill="none" stroke="#94a3b8" stroke-width="1.6"/>
+    <line x1="375" y1="258" x2="381" y2="264" stroke="#94a3b8" stroke-width="1.6"/>
+    <text x="396" y="258" font-size="13" fill="#94a3b8">Search by skill, e.g. React…</text>
+    <rect x="1116" y="230" width="110" height="46" rx="12" fill="#ffffff" stroke="#dbe2f0"/>
+    <text x="1140" y="258" font-size="13" fill="#475569">Filters</text>
+    <rect x="1240" y="230" width="300" height="46" rx="12" fill="#4338ca"/>
+    <text x="1350" y="259" font-size="13" font-weight="700" fill="#ffffff">Search teammates</text>
+
+    <!-- grid of cards -->
+    <g>
+      <rect x="340" y="302" width="380" height="180" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="386" cy="350" r="22" fill="#c7d2fe"/><text x="376" y="356" font-size="14" font-weight="700" fill="#4338ca">AK</text>
+      <text x="422" y="346" font-size="15" font-weight="700" fill="#1e293b">Aditi K.</text>
+      <text x="422" y="366" font-size="12" fill="#64748b">Full-stack · 3 hackathons</text>
+      <text x="362" y="412" font-size="11" fill="#7c3aed">React</text>
+      <rect x="362" y="422" width="130" height="7" rx="3.5" fill="#ede9fe"/>
+      <text x="510" y="412" font-size="11" fill="#4f46e5">Node</text>
+      <rect x="510" y="422" width="100" height="7" rx="3.5" fill="#e0e7ff"/>
+      <text x="626" y="412" font-size="11" fill="#4f46e5">Supabase</text>
+      <rect x="626" y="422" width="76" height="7" rx="3.5" fill="#e0e7ff"/>
+      <rect x="362" y="444" width="110" height="24" rx="12" fill="#16a34a"/>
+      <text x="376" y="460" font-size="11" fill="#ffffff">Available</text>
+
+      <rect x="736" y="302" width="380" height="180" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="782" cy="350" r="22" fill="#bbf7d0"/><text x="772" y="356" font-size="14" font-weight="700" fill="#15803d">RS</text>
+      <text x="818" y="346" font-size="15" font-weight="700" fill="#1e293b">Rohan S.</text>
+      <text x="818" y="366" font-size="12" fill="#64748b">Frontend · design systems</text>
+      <text x="758" y="412" font-size="11" fill="#7c3aed">Next.js</text>
+      <rect x="758" y="422" width="120" height="7" rx="3.5" fill="#ede9fe"/>
+      <text x="894" y="412" font-size="11" fill="#4f46e5">Tailwind</text>
+      <rect x="894" y="422" width="86" height="7" rx="3.5" fill="#e0e7ff"/>
+      <rect x="758" y="444" width="140" height="24" rx="12" fill="#f59e0b"/>
+      <text x="772" y="460" font-size="11" fill="#ffffff">Weekends only</text>
+
+      <rect x="1132" y="302" width="408" height="180" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="1178" cy="350" r="22" fill="#fde68a"/><text x="1166" y="356" font-size="14" font-weight="700" fill="#b45309">MP</text>
+      <text x="1214" y="346" font-size="15" font-weight="700" fill="#1e293b">Meera P.</text>
+      <text x="1214" y="366" font-size="12" fill="#64748b">ML · data pipelines</text>
+      <text x="1154" y="412" font-size="11" fill="#7c3aed">Python</text>
+      <rect x="1154" y="422" width="110" height="7" rx="3.5" fill="#ede9fe"/>
+      <text x="1280" y="412" font-size="11" fill="#4f46e5">Pandas</text>
+      <rect x="1280" y="422" width="90" height="7" rx="3.5" fill="#e0e7ff"/>
+      <rect x="1154" y="444" width="110" height="24" rx="12" fill="#16a34a"/>
+      <text x="1168" y="460" font-size="11" fill="#ffffff">Available</text>
+
+      <rect x="340" y="502" width="380" height="180" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="386" cy="550" r="22" fill="#fecaca"/><text x="376" y="556" font-size="14" font-weight="700" fill="#b91c1c">TJ</text>
+      <text x="422" y="546" font-size="15" font-weight="700" fill="#1e293b">Tarun J.</text>
+      <text x="422" y="566" font-size="12" fill="#64748b">Backend · APIs</text>
+      <text x="362" y="612" font-size="11" fill="#7c3aed">Express</text>
+      <rect x="362" y="622" width="104" height="7" rx="3.5" fill="#ede9fe"/>
+      <text x="484" y="612" font-size="11" fill="#4f46e5">Postgres</text>
+      <rect x="484" y="622" width="80" height="7" rx="3.5" fill="#e0e7ff"/>
+      <rect x="362" y="644" width="120" height="24" rx="12" fill="#f59e0b"/>
+      <text x="376" y="660" font-size="11" fill="#ffffff">Evenings</text>
+
+      <rect x="736" y="502" width="380" height="180" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="782" cy="550" r="22" fill="#e9d5ff"/><text x="770" y="556" font-size="14" font-weight="700" fill="#7e22ce">SK</text>
+      <text x="818" y="546" font-size="15" font-weight="700" fill="#1e293b">Sana K.</text>
+      <text x="818" y="566" font-size="12" fill="#64748b">Product · UI design</text>
+      <text x="758" y="612" font-size="11" fill="#7c3aed">Figma</text>
+      <rect x="758" y="622" width="90" height="7" rx="3.5" fill="#ede9fe"/>
+      <rect x="758" y="644" width="110" height="24" rx="12" fill="#16a34a"/>
+      <text x="772" y="660" font-size="11" fill="#ffffff">Available</text>
+
+      <rect x="1132" y="502" width="408" height="180" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="1178" cy="550" r="22" fill="#a5f3fc"/><text x="1168" y="556" font-size="14" font-weight="700" fill="#0e7490">VN</text>
+      <text x="1214" y="546" font-size="15" font-weight="700" fill="#1e293b">Vikram N.</text>
+      <text x="1214" y="566" font-size="12" fill="#64748b">DevOps · cloud</text>
+      <text x="1154" y="612" font-size="11" fill="#7c3aed">Docker</text>
+      <rect x="1154" y="622" width="96" height="7" rx="3.5" fill="#ede9fe"/>
+      <rect x="1154" y="644" width="130" height="24" rx="12" fill="#f59e0b"/>
+      <text x="1168" y="660" font-size="11" fill="#ffffff">Weekdays PM</text>
+    </g>
+
+    <!-- message panel -->
+    <rect x="340" y="706" width="1200" height="64" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="366" y="744" font-size="13" fill="#94a3b8">Message Aditi about your project…</text>
+    <rect x="1424" y="718" width="96" height="40" rx="20" fill="#4f46e5"/>
+    <text x="1454" y="744" font-size="13" font-weight="700" fill="#ffffff">Send</text>
+  </g>
+</svg>
